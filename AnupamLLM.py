@@ -1,6 +1,7 @@
 import streamlit as st
 #from langchain.llms import Ollama
-from langchain_community.llms import Ollama
+#from langchain_community.llms 
+import Ollama
 from langchain.agents import AgentType, initialize_agent, load_tools
 from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks import StreamlitCallbackHandler
