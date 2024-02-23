@@ -27,7 +27,7 @@ if prompt!="":
             ,handle_parsing_errors=True
         )
         response = agent.run(prompt, callbacks=[StreamlitCallbackHandler(st.container())])
-        # BUG 2023Nov05 can spiral Q&A: https://github.com/langchain-ai/langchain/issues/12892
+     
         # to get out, refresh browser page
         
     st.markdown(response)
